@@ -1,0 +1,35 @@
+.botao {
+  background-color: rgb(0,0,0, 0);
+  border: 0px;
+  border-radius: 2px;
+  padding: 5px 25px 5px 25px;
+  letter-spacing: 2px;
+  font-weight: 700;
+  box-shadow: 0px 0px 5px 3px rgb(214,0,255);
+  text-transform: uppercase;
+  color: rgb(214,0,255);
+  text-shadow:
+    0 0 5px rgb(214,0,255),
+    0 0 10px rgb(214,0,255),
+    0 0 20px rgb(214,0,255),
+    0 0 40px rgb(214,0,255),
+    0 0 80px rgb(214,0,255),
+    0 0 90px rgb(214,0,255),
+    0 0 100px rgb(214,0,255),
+    0 0 150px rgb(214,0,255);
+}
+.botao:hover {
+  transition: 0.5s;
+  box-shadow: 0px 0px 5px 3px rgb(0,184,255, 1);
+  background-color: rgb(0,30,255, 0.2);
+  color: rgb(0,184,255, 1);
+  text-shadow:
+    0 0 5px rgb(0,184,255, 1),
+    0 0 10px rgb(0,184,255, 1),
+    0 0 20px rgb(0,184,255, 1),
+    0 0 40px rgb(0,184,255, 1),
+    0 0 80px rgb(0,184,255, 1),
+    0 0 90px rgb(0,184,255, 1),
+    0 0 100px rgb(0,184,255, 1),
+    0 0 150px rgb(0,184,255, 1);
+}

@@ -1,0 +1,17 @@
+span {
+  text-transform: uppercase;
+}
+
+.important {
+  color: 	rgb(0,255,159);
+}
+
+.blinking-underscore {
+  animation: blink 1s linear infinite;
+}
+
+@keyframes blink{
+  0%{opacity: 0;}
+  50%{opacity: 1;}
+  100%{opacity: 0;}
+}

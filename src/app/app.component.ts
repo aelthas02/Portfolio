@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'Portfolio';
+
+  public title = 'Portfolio';
+  public page = 'about';
+
+  public selectedPage(selectedPage): void {
+    this.page = selectedPage;
+  }
 }
