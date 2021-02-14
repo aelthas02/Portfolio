@@ -33,3 +33,9 @@
     0 0 100px rgb(0,184,255, 1),
     0 0 150px rgb(0,184,255, 1);
 }
+
+@media only screen and (max-width: 600px) {
+  .botao {
+    font-size: 16px;
+  }
+}
