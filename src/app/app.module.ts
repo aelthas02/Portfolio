@@ -10,6 +10,7 @@ import { MainPageComponent } from './components/main-page/main-page.component';
 import { AboutComponent } from './components/main-page/about/about.component';
 import { SkillsComponent } from './components/main-page/skills/skills.component';
 import { ContactComponent } from './components/main-page/contact/contact.component';
+import { MenuIconComponent } from './components/menu-icon/menu-icon.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { ContactComponent } from './components/main-page/contact/contact.compone
     MainPageComponent,
     AboutComponent,
     SkillsComponent,
-    ContactComponent
+    ContactComponent,
+    MenuIconComponent
   ],
   imports: [
     BrowserModule,
