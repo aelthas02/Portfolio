@@ -1,2 +1,19 @@
 .custom-shape {
 }
+
+.linkedin-logo {
+  height: 30px;
+}
+.container {
+  width: 100%;
+  margin-left: -15px;
+}
+
+@media only screen and (max-width: 600px) {
+  a, span {
+    font-size: 12px;
+  }
+  .linkedin-logo {
+    height: 15px;
+  }
+}
