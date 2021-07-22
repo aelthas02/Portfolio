@@ -1,8 +1,11 @@
 <span>Hi</span><br />
 <span>My name is <span class="important">Breno Moreira</span></span><br />
-<span>I'm a Front End developer<span class="blinking-underscore">_</span></span>
+<span>I'm a Front End developer</span>
 <br /><br />
-<span>Some of my work below</span>
-<div class="row">
-    <app-tilt-image *ngFor="let repo of repoList;" [repo]=(repo)></app-tilt-image>
+<span>You can see some of my work below<span class="blinking-underscore">_</span></span>
+<div class="row w-100 justify-content-center">
+    <div *ngFor="let repo of repoList;" class="text-center">
+        <app-tilt-image [repo]=(repo)></app-tilt-image>
+        <a [href]="repo.html_url" target="_blank"><span>{{repo.name}}</span></a>
+    </div>
 </div>

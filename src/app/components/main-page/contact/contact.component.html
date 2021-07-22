@@ -6,21 +6,27 @@
         <span>E-Mail:</span>
       </div>
       <div class="text-right mr-2">
-        <a href="linkedinAddress">
+        <a [href]="linkedinAddress" target="_blank">
           <img [src]="linkedinlogo" class="logo mr-1" />
         </a>
       </div>
       <div class="text-right mr-2">
-        <a href="githubAddress">
+        <a [href]="githubAddress" target="_blank">
           <img [src]="githublogo" class="logo mr-1" />
+        </a>
+      </div>
+      <div class="text-right mr-2">
+        <a [href]="codepenAddress" target="_blank">
+          <img [src]="codepenlogo" class="logo mr-1" />
         </a>
       </div>
     </div>
 
     <div>
       <div><span>breno-moreira@hotmail.com</span></div>
-      <div><a href="linkedinAddress">LinkedIn</a></div>
-      <div><a href="githubAddress">GitHub</a></div>
+      <div><a [href]="linkedinAddress" target="_blank">LinkedIn</a></div>
+      <div><a [href]="githubAddress" target="_blank">GitHub</a></div>
+      <div><a [href]="codepenAddress" target="_blank">CodePen</a></div>
     </div>
   </div>
 
